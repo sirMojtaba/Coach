@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mcic_main_cons_lyt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+
+    <!--<androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/mcic_main_img"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/ic_main_activity_private_package_custom_shape"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.github.abdularis.civ.CircleImageView
+        android:id="@+id/mcic_coach_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="36dp"
+        android:backgroundTint="@android:color/white"
+        android:src="@drawable/ic_custom_avatar"
+        app:layout_constraintBottom_toBottomOf="@id/mcic_main_img"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/mcic_main_img" />
+
+    <com.daya.setapp.View.Widget.MyTextViewBold
+        android:id="@+id/mcic_title_txt_bld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="160dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="امیر جعفری"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/mcic_call_img"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/mcic_call_img" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/mcic_call_img"
+        android:layout_width="90dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_public_package_shape1"
+        android:backgroundTint="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.daya.setapp.View.Widget.MyTextViewBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تماس با مربی"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/mcic_call_img"
+        app:layout_constraintLeft_toLeftOf="@id/mcic_call_img"
+        app:layout_constraintRight_toRightOf="@id/mcic_call_img"
+        app:layout_constraintTop_toTopOf="@id/mcic_call_img" />
+
+    <com.daya.setapp.View.Widget.MyTextView
+        android:id="@+id/mcic_date_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:maxLines="1"
+        android:text="تاریخ مشاوره: 1399/11/21"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/mcic_main_img"
+        app:layout_constraintRight_toRightOf="@id/mcic_title_txt_bld" />
+
+    <com.daya.setapp.View.Widget.MyTextView
+        android:id="@+id/mcic_time_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:maxLines="1"
+        android:text="زمان مشاوره: از 21:45 تا 22:00"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/mcic_main_img"
+        app:layout_constraintRight_toLeftOf="@id/mcic_date_txt" />
+
+    <com.daya.setapp.View.Widget.MyTextView
+        android:id="@+id/mcic_counter_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="پنج روز دیگر"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10sp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintLeft_toLeftOf="@id/mcic_call_img"
+        app:layout_constraintRight_toRightOf="@id/mcic_call_img"
+        app:layout_constraintTop_toTopOf="@+id/mcic_main_img" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

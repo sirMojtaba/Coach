@@ -22,9 +22,7 @@ class TraineeFragment : Fragment() {
         traineeViewModel =
                 ViewModelProvider(this).get(TraineeViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_trainee, container, false)
-        val textView: TextView = root.findViewById(R.id.text_dashboard)
         traineeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
         })
         return root
     }

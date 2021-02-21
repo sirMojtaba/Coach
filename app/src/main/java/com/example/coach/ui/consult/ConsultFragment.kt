@@ -22,9 +22,7 @@ class ConsultFragment : Fragment() {
         consultViewModel =
                 ViewModelProvider(this).get(ConsultViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_consult, container, false)
-        val textView: TextView = root.findViewById(R.id.text_home)
         consultViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
         })
         return root
     }
