@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_consult">
+    app:startDestination="@id/loginFragment">
 
     <fragment
         android:id="@+id/navigation_consult"
@@ -22,4 +22,19 @@
         android:name="com.example.coach.ui.order.OrderFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_order" />
+    <fragment
+        android:id="@+id/traineeDetailsFragment"
+        android:name="com.example.coach.ui.trainee.TraineeDetailsFragment"
+        android:label="fragment_trainee_details"
+        tools:layout="@layout/fragment_trainee_details" />
+    <fragment
+        android:id="@+id/consultationTimeFragment"
+        android:name="com.example.coach.ui.consult.ConsultationTimeFragment"
+        android:label="fragment_consultation_time"
+        tools:layout="@layout/fragment_consultation_time" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.coach.ui.login.LoginFragment"
+        android:label="login_fragment"
+        tools:layout="@layout/login_fragment" />
 </navigation>
